@@ -1,0 +1,24 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        
+         <item
+        		android:id="@+id/orderdetails"
+        		 android:showAsAction="never"       
+      		   android:title="Order Details"/>
+         
+          
+         <item
+        	android:id="@+id/tamount" 
+        	 android:showAsAction="never"      
+      	    android:title="Total Amount"/>
+     
+   
+    
+    <item        
+        android:id="@+id/logout"  
+         android:showAsAction="never"      
+        android:title="LogOut"/>
+    
+       
+    </menu>

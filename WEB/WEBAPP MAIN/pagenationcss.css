@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+  
+.pg-normal {  
+    color: #0000FF;  
+    font-weight: normal;  
+    text-decoration: none;  
+    cursor: pointer;  
+}  
+  
+.pg-selected {  
+    color: #800080;  
+    font-weight: bold;  
+    text-decoration: underline;  
+    cursor: pointer;  
+}  

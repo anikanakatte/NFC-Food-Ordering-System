@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC_Ordering_System_ReadApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info_screen">InfoScreen</string>
+    <string name="info">The app is used for ordering food. The customer can directly access the menu without having to wait for the waiter. The order details and total amount is displayed in the app for customer convience </string>
+    <string name="title_activity_customer_registration">CustomerRegistration</string>
+    <string name="title_activity_qr_code_scanning_page">QrCodeScanningPAge</string>
+    <string name="title_activity_menu_details">MenuDetails</string>
+    <string name="error_detected">TAG NOT DETECTED. WHERE DO YOU WANT WRITE!?!?</string>
+    <string name="ok_writing">I HAVE WRITTEN YOUR ENCRYPTED DATA INTO TAG!!</string>
+    <string name="error_writing">ERROR DURING WRITING. ARE YOU SURE THAT YOUR TAG IS CLOSE TO YOUR MOBILE PHONE?</string>
+    <string name="ok_detection">TAG DETECTED: </string>
+    <string name="title_activity_temporvary">Temporvary</string>
+    <string name="title_activity_order_screen">OrderScreen</string>
+    <string name="title_activity_temp_order_activiy">TempOrderActiviy</string>
+
+</resources>

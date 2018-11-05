@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+		<servlet-name>Adminlogin</servlet-name>
+		<servlet-class>com.admin.Adminlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Adminlogin</servlet-name>
+		<url-pattern>/Adminlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>com.admin.ChangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/ChangePassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SupportUsers</servlet-name>
+		<servlet-class>com.admin.SupportUsers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SupportUsers</servlet-name>
+		<url-pattern>/SupportUsers</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Category</servlet-name>
+		<servlet-class>com.admin.Category</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Category</servlet-name>
+		<url-pattern>/Category</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Items</servlet-name>
+		<servlet-class>com.admin.Items</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Items</servlet-name>
+		<url-pattern>/Items</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Supportuserlogin</servlet-name>
+		<servlet-class>com.supportuser.Supportuserlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Supportuserlogin</servlet-name>
+		<url-pattern>/Supportuserlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePassworduser</servlet-name>
+		<servlet-class>com.supportuser.ChangePassworduser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassworduser</servlet-name>
+		<url-pattern>/ChangePassworduser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewOrderedItems</servlet-name>
+		<servlet-class>com.supportuser.ViewOrderedItems</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewOrderedItems</servlet-name>
+		<url-pattern>/ViewOrderedItems</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Clear</servlet-name>
+		<servlet-class>com.supportuser.Clear</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Clear</servlet-name>
+		<url-pattern>/Clear</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewTransactions</servlet-name>
+		<servlet-class>com.admin.ViewTransactions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewTransactions</servlet-name>
+		<url-pattern>/ViewTransactions</url-pattern>
+	</servlet-mapping>
+</web-app>
